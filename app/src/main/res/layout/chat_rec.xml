@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    >
+
+        <TextView
+            android:id="@+id/rec_dateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2024년 8월 23일 금요일"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:background="@drawable/edittext_background"
+            android:padding="7dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            />
+
+
+    <ImageView
+        android:id="@+id/chatting_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/happy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rec_dateTextView"
+         />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="6dp"
+        app:layout_constraintStart_toEndOf="@+id/chatting_icon"
+        app:layout_constraintTop_toTopOf="@+id/chatting_icon"
+        >
+
+        <TextView
+            android:id="@+id/chetting_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="4dp"
+            android:text="홍길동"
+            android:textColor="#888888"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/chatting_icon"
+            app:layout_constraintTop_toTopOf="@+id/chatting_icon" />
+
+        <TextView
+            android:id="@+id/received_message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"
+            android:text="Received message text"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@+id/chetting_nickname" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout" >
+
+        <TextView
+            android:id="@+id/rec_message_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3:00PM"
+            android:textColor="#888888"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:id="@+id/rec_message_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:text="안읽음"
+            android:textColor="@color/red"
+            android:textSize="10sp"
+            app:layout_constraintStart_toEndOf="@+id/rec_message_time"
+
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

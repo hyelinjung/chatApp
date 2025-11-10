@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- 빈 상태 아이콘 -->
+    <ImageView
+        android:id="@+id/empty_state_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/empty_logo" />
+
+    <!-- 빈 상태 메시지 -->
+    <TextView
+        android:id="@+id/empty_state_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/empty_state_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="채팅을 시작해보세요!"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <!-- 채팅 시작 버튼 -->
+    <TextView
+        android:id="@+id/start_chat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/empty_state_message"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="채팅 시작"
+        android:textColor="#CDDC39"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

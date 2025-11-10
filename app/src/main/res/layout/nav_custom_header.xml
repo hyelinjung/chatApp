@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+    <!-- 프로필 이미지 -->
+    <ImageView
+        android:id="@+id/header_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/happy"
+    android:layout_marginEnd="16dp"
+    android:contentDescription="Profile Image"
+    android:scaleType="centerCrop"/>
+   <!-- android:background="@drawable/circle_background"--> <!-- 원형 배경을 위한 설정 -->
+
+    <!-- 텍스트 (이름) -->
+    <TextView
+        android:id="@+id/header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+</LinearLayout>
+

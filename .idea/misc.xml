@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/tests/app/src/main/res/drawable-v24/button_background.xml" value="0.11944444444444445" />
+        <entry key="..\:/tests/app/src/main/res/drawable/alarm.xml" value="0.11203703703703703" />
+        <entry key="..\:/tests/app/src/main/res/drawable/button_background.xml" value="0.11944444444444445" />
+        <entry key="..\:/tests/app/src/main/res/drawable/dialog_button.xml" value="0.1953125" />
+        <entry key="..\:/tests/app/src/main/res/drawable/dialog_button_positive.xml" value="0.11944444444444445" />
+        <entry key="..\:/tests/app/src/main/res/drawable/edittext_background.xml" value="0.11203703703703703" />
+        <entry key="..\:/tests/app/src/main/res/drawable/main_button.xml" value="0.1953125" />
+        <entry key="..\:/tests/app/src/main/res/drawable/main_login_button.xml" value="0.1953125" />
+        <entry key="..\:/tests/app/src/main/res/layout/activity_auth.xml" value="0.17916666666666667" />
+        <entry key="..\:/tests/app/src/main/res/layout/activity_auth_login.xml" value="0.13333333333333333" />
+        <entry key="..\:/tests/app/src/main/res/layout/activity_chat_room.xml" value="0.22" />
+        <entry key="..\:/tests/app/src/main/res/layout/activity_chatlist.xml" value="0.1" />
+        <entry key="..\:/tests/app/src/main/res/layout/activity_chatnew.xml" value="0.1" />
+        <entry key="..\:/tests/app/src/main/res/layout/activity_firebase_uiactivity.xml" value="0.17916666666666667" />
+        <entry key="..\:/tests/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/tests/app/src/main/res/layout/activity_login2.xml" value="0.22" />
+        <entry key="..\:/tests/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/tests/app/src/main/res/layout/activity_memo.xml" value="0.17916666666666667" />
+        <entry key="..\:/tests/app/src/main/res/layout/activity_test.xml" value="0.17916666666666667" />
+        <entry key="..\:/tests/app/src/main/res/layout/activity_test2.xml" value="0.1" />
+        <entry key="..\:/tests/app/src/main/res/layout/chat_dialog.xml" value="0.3333333333333333" />
+        <entry key="..\:/tests/app/src/main/res/layout/chat_dialog_delete.xml" value="0.17916666666666667" />
+        <entry key="..\:/tests/app/src/main/res/layout/chat_dialog_delete_public.xml" value="0.22" />
+        <entry key="..\:/tests/app/src/main/res/layout/chat_dialog_public.xml" value="0.3333333333333333" />
+        <entry key="..\:/tests/app/src/main/res/layout/chat_login.xml" value="0.22" />
+        <entry key="..\:/tests/app/src/main/res/layout/chat_pwd_dialog.xml" value="0.1" />
+        <entry key="..\:/tests/app/src/main/res/layout/chat_rec.xml" value="0.3333333333333333" />
+        <entry key="..\:/tests/app/src/main/res/layout/chat_sender.xml" value="0.3333333333333333" />
+        <entry key="..\:/tests/app/src/main/res/layout/chatdialog.xml" value="0.1" />
+        <entry key="..\:/tests/app/src/main/res/layout/chatitem.xml" value="0.4466666666666667" />
+        <entry key="..\:/tests/app/src/main/res/layout/chatroom_list_fragment.xml" value="0.22" />
+        <entry key="..\:/tests/app/src/main/res/layout/chatroom_list_fragment_search.xml" value="0.1" />
+        <entry key="..\:/tests/app/src/main/res/layout/empty_list_fragment.xml" value="0.1" />
+        <entry key="..\:/tests/app/src/main/res/layout/item.xml" value="0.1" />
+        <entry key="..\:/tests/app/src/main/res/layout/memoitem.xml" value="0.17916666666666667" />
+        <entry key="..\:/tests/app/src/main/res/layout/nav_custom_header.xml" value="0.1" />
+        <entry key="..\:/tests/app/src/main/res/layout/toolbar_custom_layout.xml" value="0.4466666666666667" />
+        <entry key="..\:/tests/app/src/main/res/menu/side_menu.xml" value="0.1" />
+        <entry key="..\:/tests/firebasechat/src/main/res/layout/activity_main.xml" value="0.11764705882352941" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="zulu-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.3333333333333333" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
